@@ -59,8 +59,7 @@ Describe any challenges encountered while building the app.
     limitations under the License.
 
 
-
-    # Project 5 - *TwitterCP*
+ # Project 5 - *TwitterCP*
 
     Time spent: **30** hours spent in total
 
@@ -102,7 +101,7 @@ Describe any challenges encountered while building the app.
 
     Here's a walkthrough of implemented user stories:
 
-    <img src='http://imgur.com/wzRaNa6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    <img src='http://i.imgur.com/wzRaNa6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
     GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
