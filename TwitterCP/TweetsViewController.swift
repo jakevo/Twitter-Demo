@@ -49,14 +49,8 @@ class TweetsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //let defaulst = UserDefaults.standard
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "replyView") as! ReplyViewController
-        
-        for tweet in tweetsArray {
-            if tweet.retweetName == "Jake Vo" {
-                vc.tweet = tweet
-                break
-            }
-        }
-        //vc.tweet = tweetsArray[0]
+       
+        vc.tweet = tweetsArray[0]
 
         
         self.present(vc, animated: true, completion: nil)
