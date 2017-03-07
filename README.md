@@ -58,11 +58,11 @@ Describe any challenges encountered while building the app.
     See the License for the specific language governing permissions and
     limitations under the License.
 
-   # Project 5 - *Zwitter* 
+# Project 5 - *Zwitter* 
 
     Time spent: **30** hours spent in total
 
-   ## User Stories
+## User Stories
 
     The following **required** functionality is completed:
 
@@ -96,7 +96,7 @@ Describe any challenges encountered while building the app.
     1. 
     2.
 
-    ## Video Walkthrough
+## Video Walkthrough
 
     Here's a walkthrough of implemented user stories:
 
@@ -104,11 +104,11 @@ Describe any challenges encountered while building the app.
 
     GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-    ## Notes
+## Notes
 
     Describe any challenges encountered while building the app.
 
-    ## License
+## License
 
         Copyright [2017] [Jake Vo]
 
