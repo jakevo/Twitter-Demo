@@ -17,14 +17,36 @@ class User: NSObject {
     var id: Int?
     var dictionaryObj: NSDictionary?
     var screenName: NSString?
-    
+    var followers: Int?
+    var following: Int?
+    var coverImage: URL?
     init(dictionary: NSDictionary) {
         //print (dictionary)
         
         self.dictionaryObj = dictionary
+        //print(dictionary)
+        //followers = dictionary["followers_count"] as? Int
+        //following = dictionary["following"] as? Int
         
+        if let followingCount = dictionary["following"] {
+            following = followingCount as? Int
+        }
+        
+        if let followerCount = dictionary["followers_count"] {
+            following = followerCount as? Int
+        }
+        
+
+        if let covImage = dictionary["profile_banner_url"]{
+             if let covImagen = covImage as? String{
+                self.coverImage = URL(string: covImagen)
+            } else {
+                self.coverImage = URL(string: "https://i.ytimg.com/vi/VPLcVt5WIUU/hqdefault.jpg")
+            }
+        }
         screenName = dictionary["screen_name"] as? NSString
         id = dictionary["id"] as? Int
+        //print("id in user is \(id)")
         self.name = dictionary["name"] as? NSString
         self.screenname = dictionary["name"] as? NSString
         
@@ -73,7 +95,18 @@ class User: NSObject {
         }
     }
 
-    
+    class func usersWithArray(dictionaries: [NSDictionary])  -> [User] {
+        var users = [User]()
+        //var x = 0
+        for dictionary in dictionaries {
+            
+            let user = User(dictionary: dictionary)
+            users.append(user)
+            
+        }
+        
+        return users
+    }
     
     
 }

@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		682EED1B62072E1D7D6A2D4E /* Pods_TwitterCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352B416F90CD5DE48447AFD0 /* Pods_TwitterCP.framework */; };
+		6E6CD7111E6DD81F008D4893 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CD7101E6DD81F008D4893 /* ProfileViewController.swift */; };
+		6E6CD7131E6DFDE6008D4893 /* coverphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6CD7121E6DFDE6008D4893 /* coverphoto.png */; };
+		6E6CD7151E6E863A008D4893 /* New Message-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6CD7141E6E863A008D4893 /* New Message-50.png */; };
 		6E7AF3091E657D7300DBB399 /* Twitter_logo_white_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7AF3081E657D7300DBB399 /* Twitter_logo_white_32.png */; };
+		6E7AF3101E6BBA4500DBB399 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7AF30F1E6BBA4500DBB399 /* TweetDetailViewController.swift */; };
+		6E7AF3121E6BF2DB00DBB399 /* 1488719779_logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7AF3111E6BF2DB00DBB399 /* 1488719779_logout.png */; };
+		6E7AF3141E6BF40200DBB399 /* signout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7AF3131E6BF40200DBB399 /* signout.png */; };
+		6E7AF3181E6CCEF800DBB399 /* ReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7AF3171E6CCEF800DBB399 /* ReplyViewController.swift */; };
 		6E83B52E1E6139CB00A962A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E83B52D1E6139CB00A962A9 /* AppDelegate.swift */; };
 		6E83B5331E6139CB00A962A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E83B5311E6139CB00A962A9 /* Main.storyboard */; };
 		6E83B5351E6139CB00A962A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E83B5341E6139CB00A962A9 /* Assets.xcassets */; };
@@ -50,7 +57,14 @@
 		3D8C84359ED32578CD1A7200 /* Pods_TwitterCPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterCPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC58E2FFE4931F1F61C2B1A /* Pods-TwitterCPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterCPTests/Pods-TwitterCPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59E75211C024D7E1572F081B /* Pods-TwitterCP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterCP/Pods-TwitterCP.release.xcconfig"; sourceTree = "<group>"; };
+		6E6CD7101E6DD81F008D4893 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E6CD7121E6DFDE6008D4893 /* coverphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coverphoto.png; sourceTree = "<group>"; };
+		6E6CD7141E6E863A008D4893 /* New Message-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Message-50.png"; sourceTree = "<group>"; };
 		6E7AF3081E657D7300DBB399 /* Twitter_logo_white_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_logo_white_32.png; sourceTree = "<group>"; };
+		6E7AF30F1E6BBA4500DBB399 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+		6E7AF3111E6BF2DB00DBB399 /* 1488719779_logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1488719779_logout.png; sourceTree = "<group>"; };
+		6E7AF3131E6BF40200DBB399 /* signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signout.png; sourceTree = "<group>"; };
+		6E7AF3171E6CCEF800DBB399 /* ReplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyViewController.swift; sourceTree = "<group>"; };
 		6E83B52A1E6139CB00A962A9 /* TwitterCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E83B52D1E6139CB00A962A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E83B5321E6139CB00A962A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,9 +147,13 @@
 				6E83B55E1E624A8E00A962A9 /* Views */,
 				6E83B55D1E624A8300A962A9 /* Models */,
 				6E83B52D1E6139CB00A962A9 /* AppDelegate.swift */,
+				6E6CD7121E6DFDE6008D4893 /* coverphoto.png */,
 				6E83B5311E6139CB00A962A9 /* Main.storyboard */,
 				6E83B5341E6139CB00A962A9 /* Assets.xcassets */,
+				6E6CD7141E6E863A008D4893 /* New Message-50.png */,
+				6E7AF3131E6BF40200DBB399 /* signout.png */,
 				6E7AF3081E657D7300DBB399 /* Twitter_logo_white_32.png */,
+				6E7AF3111E6BF2DB00DBB399 /* 1488719779_logout.png */,
 				6E83B56D1E640ADF00A962A9 /* twitter_assets */,
 				6E83B5361E6139CB00A962A9 /* LaunchScreen.storyboard */,
 				6E83B5391E6139CB00A962A9 /* Info.plist */,
@@ -183,6 +201,9 @@
 			children = (
 				6E83B55B1E613E6200A962A9 /* LoginViewController.swift */,
 				6E83B56B1E63A24700A962A9 /* TweetsViewController.swift */,
+				6E7AF30F1E6BBA4500DBB399 /* TweetDetailViewController.swift */,
+				6E7AF3171E6CCEF800DBB399 /* ReplyViewController.swift */,
+				6E6CD7101E6DD81F008D4893 /* ProfileViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -337,9 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7AF3141E6BF40200DBB399 /* signout.png in Resources */,
+				6E6CD7131E6DFDE6008D4893 /* coverphoto.png in Resources */,
 				6E83B5381E6139CB00A962A9 /* LaunchScreen.storyboard in Resources */,
 				6E83B5351E6139CB00A962A9 /* Assets.xcassets in Resources */,
+				6E7AF3121E6BF2DB00DBB399 /* 1488719779_logout.png in Resources */,
 				6E83B5331E6139CB00A962A9 /* Main.storyboard in Resources */,
+				6E6CD7151E6E863A008D4893 /* New Message-50.png in Resources */,
 				6E7AF3091E657D7300DBB399 /* Twitter_logo_white_32.png in Resources */,
 				6E83B56E1E640ADF00A962A9 /* twitter_assets in Resources */,
 			);
@@ -505,10 +530,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E83B5611E624AF400A962A9 /* User.swift in Sources */,
+				6E7AF3181E6CCEF800DBB399 /* ReplyViewController.swift in Sources */,
+				6E6CD7111E6DD81F008D4893 /* ProfileViewController.swift in Sources */,
 				6E83B5721E640CBD00A962A9 /* TweetCell.swift in Sources */,
 				6E83B5631E624B0800A962A9 /* Tweet.swift in Sources */,
 				6E83B56C1E63A24700A962A9 /* TweetsViewController.swift in Sources */,
 				6E83B55C1E613E6200A962A9 /* LoginViewController.swift in Sources */,
+				6E7AF3101E6BBA4500DBB399 /* TweetDetailViewController.swift in Sources */,
 				6E83B5661E626D4700A962A9 /* TwitterClient.swift in Sources */,
 				6E83B52E1E6139CB00A962A9 /* AppDelegate.swift in Sources */,
 			);
