@@ -59,11 +59,11 @@ Describe any challenges encountered while building the app.
     limitations under the License.
 
 
- # Project 5 - *TwitterCP*
+   # Project 5 - *Zwitter* 
 
     Time spent: **30** hours spent in total
 
-    ## User Stories
+   ## User Stories
 
     The following **required** functionality is completed:
 
