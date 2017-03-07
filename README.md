@@ -102,7 +102,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/wzRaNa6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ![Screenshot](twitterDemo.gif)
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 
 ## Notes
 
